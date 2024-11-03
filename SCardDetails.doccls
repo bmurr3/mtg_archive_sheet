@@ -1,0 +1,5 @@
+﻿Option Explicit
+
+Public Property Get LObj_CardDetails()
+    Set LObj_CardDetails = Me.ListObjects("CardDetails")
+End Property

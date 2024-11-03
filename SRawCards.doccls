@@ -1,0 +1,5 @@
+﻿Option Explicit
+
+Public Property Get LObj_RawCards() As ListObject
+    Set LObj_RawCards = Me.ListObjects("RawCards")
+End Property
